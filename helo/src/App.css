@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #FF70A6, #FF9770,#FFD670,#E9FF70);
+}
+
+.login-div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: calc(20vh)
+}
+
+.login-contain {
+  height: 60vh;
+  width: 50vw;
+  box-shadow: 2px 2px 30px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.brand-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 75px;
+  margin: 20px;
+}
+
+.username {
+  color: white;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.login-btn {
+  margin: 10px;
+}
+
+.login-btns {
+  margin: 0px 30px;
+  background: radial-gradient(#403D39, #514e4a);
+  color: white;
+  border: none;
+  font-weight: 100;
+  padding: 10px 20px;
+  border-radius: 2px
+}
+
+.login-btns:focus {
+  outline: none;
+  background: radial-gradient(#2d2b29, #403D39)
+}
+
+input {
+  width: 15vw;
+}
+
+/* .loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: lightgray;
+  border-top: 15px solid skyblue;
+  border-bottom: 15px solid skyblue;
+  animation: spin 2s linear infinite;
+  border-right: 15px solid lightgreen;
+  border-left: 15px solid lightgreen;
+  background: none; */
+/* } */
+
+
